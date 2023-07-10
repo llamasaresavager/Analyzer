@@ -9,8 +9,8 @@ class Program
 {
     static void Main()
     {
-        string repoPath = @"C:\Users\***REPLACE WITH YOUR USER NAME***\Desktop\Projects\Code Base Analyzer\Deca.Voice";
-        string outputFolderPath = @"C:\Users\***REPLACE WITH YOUR USER NAME***\Desktop\Projects\Code Base Analyzer";
+        string repoPath = @"C:\Users\localadmin\Desktop\Projects\Code Base Analyzer\Deca.Voice";
+        string outputFolderPath = @"C:\Users\localadmin\Desktop\Projects\Code Base Analyzer";
 
         SaveFolderStructureAsJson(repoPath, Path.Combine(outputFolderPath, "repo_structure.json"));
     }

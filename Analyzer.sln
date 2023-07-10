@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzer", "Analyzer\Analyzer.csproj", "{106602C5-55BA-4F6A-9FC5-CE0DDC610EA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analyzer", "Analyzer\Analyzer.csproj", "{106602C5-55BA-4F6A-9FC5-CE0DDC610EA6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "File Selector", "File Selector\File Selector.pyproj", "{2E083CFA-216C-417B-8E56-138598A3BE89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{106602C5-55BA-4F6A-9FC5-CE0DDC610EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{106602C5-55BA-4F6A-9FC5-CE0DDC610EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{106602C5-55BA-4F6A-9FC5-CE0DDC610EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E083CFA-216C-417B-8E56-138598A3BE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E083CFA-216C-417B-8E56-138598A3BE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
